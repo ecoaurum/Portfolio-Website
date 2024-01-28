@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './components/footer/Footer';
-import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
 import AppScreen from './screens/AppScreen';
 import WebsiteScreen from './screens/WebsiteScreen';
@@ -10,7 +10,7 @@ import PortfolioScreen from './screens/PortfolioScreen';
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className='App'>      
       <main>
         <Routes>
@@ -25,7 +25,7 @@ function App() {
       {/* FOOTER */}
       <Footer />
       </div>    
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
