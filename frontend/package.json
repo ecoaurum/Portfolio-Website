@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "https://portfolio-website-frontend-rose.vercel.app/",
   "proxy": "http://192.168.100.35:5000",
   "private": true,
   "dependencies": {
