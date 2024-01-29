@@ -10,8 +10,8 @@ function PortfolioScreen(props) {
   useEffect(() => {
     const fetchDataFromDB = async () => {
       try {
-        const appsResponse = await axios.get('/api/apps');
-        const websitesResponse = await axios.get('/api/websites');
+        const appsResponse = await axios.get('https://portfolio-suq4.onrender.com/api/apps');
+        const websitesResponse = await axios.get('https://portfolio-suq4.onrender.com/api/websites');
 
         setApps(appsResponse.data);
         setWebsites(websitesResponse.data);

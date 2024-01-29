@@ -9,7 +9,7 @@ function WebsiteScreen(props) {
   useEffect(() => {
     const fetchDataFromDB = async () => {
       try {
-        const response = await axios.get('/api/websites');
+        const response = await axios.get('https://portfolio-suq4.onrender.com/api/websites');
         setWebsites(response.data);
       } catch (error) {
         console.error('Error fetching data from database:', error);

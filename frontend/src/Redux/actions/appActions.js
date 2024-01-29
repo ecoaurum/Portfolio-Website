@@ -13,7 +13,7 @@ export const listApps = () => async (dispatch) => {
         type: APP_LIST_REQUEST
     });
     try {
-        const { data } = await axios.get('/api/apps');
+        const { data } = await axios.get('https://portfolio-suq4.onrender.com/api/apps');
         // console.log(data);
         dispatch({
             type: APP_LIST_SUCCESS,
@@ -32,7 +32,7 @@ export const detailApp = (appId) => async (dispatch) => {
         type: APP_DETAILS_REQUEST
     });
     try {
-        const { data } = await axios.get(`/api/apps/${appId}`);
+        const { data } = await axios.get(`https://portfolio-suq4.onrender.com/api/apps/${appId}`);
         dispatch({
             type: APP_DETAILS_SUCCESS,
             payload: data

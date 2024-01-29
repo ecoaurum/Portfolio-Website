@@ -17,10 +17,10 @@ function HomeScreen(props) {
     useEffect(() => {
         const fetchDataFromDB = async () => {
         try {
-            const websitesResponse = await axios.get('/api/websites');
+            const websitesResponse = await axios.get('https://portfolio-suq4.onrender.com/api/websites');
             setWebsites(websitesResponse.data);
 
-            const appsResponse = await axios.get('/api/apps');
+            const appsResponse = await axios.get('https://portfolio-suq4.onrender.com/api/apps');
             setApps(appsResponse.data);
         } catch (error) {
             console.error('Error fetching data from database:', error);
