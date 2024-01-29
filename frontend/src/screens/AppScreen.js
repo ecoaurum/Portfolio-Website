@@ -9,7 +9,7 @@ function AppScreen(props) {
   useEffect(() => {
     const fetchDataFromDB = async () => {
       try {
-        const response = await axios.get('https://portfolio-suq4.onrender.com/api/apps');
+        const response = await axios.get('/api/apps');
         setApps(response.data);
       } catch (error) {
         console.error('Error fetching data from database:', error);
