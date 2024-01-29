@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "proxy": "https://portfolio-website-server-iota.vercel.app/",
+  "proxy": "http://192.168.100.35:5000",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
