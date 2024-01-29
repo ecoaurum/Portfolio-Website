@@ -11,6 +11,6 @@
 # production
 /build
 
-# vercel.json
+vercel.json
 
 
