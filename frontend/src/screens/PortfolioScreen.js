@@ -59,7 +59,7 @@ function PortfolioScreen(props) {
                     data-placement="left"
                     title="Details"
                   >
-                    <Link to={`/websites/${website._id}`}>
+                    <Link to={`/websites/${website._id}`} target="_blank">
                       <i className="fas fa-sliders-h"></i>
                     </Link>
                   </div>
@@ -89,7 +89,7 @@ function PortfolioScreen(props) {
                     data-placement="left"
                     title="Details"
                   >
-                    <Link to={`/apps/${app._id}`}>
+                    <Link to={`/apps/${app._id}`} target="_blank">
                       <i className="fas fa-sliders-h"></i>
                     </Link>
                   </div>
