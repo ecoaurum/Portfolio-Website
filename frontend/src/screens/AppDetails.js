@@ -56,13 +56,20 @@ function AppsDetail(props) {
                                                     dangerouslySetInnerHTML={{ __html: appdetails.description }} 
                                                 />
                                             </div>
-                                        </div>
+                                        </div>                                        
                                     </div>                                    
-                                </div>
-                            </div>
-                        </div>
-                        ))}
-                    </div>
+                                </div>                                
+                            </div>                            
+                        </div>                        
+                        ))}                        
+                    </div>                    
+                </div>
+                <div className="button-container">
+                    <button>
+                        <Link to={'/portfolio'}>
+                            BACK TO PORTFOLIO PROJECTS
+                        </Link>                            
+                    </button>                   
                 </div>
             </div>                            
        </>       

@@ -20,8 +20,8 @@ const WebsiteData = {
             id: "2",
             name: "Portfolio Website",
             image: "/images/websites/portfolio/portfolio2.png",
-            projectLink: "https://motorhomes-nodejs.onrender.com/",
-            githubLink: "https://github.com/ecoaurum/motorhomes-shop",
+            projectLink: "https://portfolio-frontend-r1yy.onrender.com/",
+            githubLink: "https://github.com/ecoaurum/Portfolio-Website",
             description: "This project is an online store for selling motorhomes with an admin panel, a profile page, password recovery via email and with shopping cart",
             imageTitle: [
                 {
