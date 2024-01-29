@@ -67,7 +67,7 @@ function PortfolioScreen(props) {
               </div>
             </div>
           </div>
-        ))};
+        ))}
         {apps.map((app) => (
           <div className="slides row" key={app._id}>
             <div className="sliderWords col-lg-4 col-md-5">
@@ -97,7 +97,7 @@ function PortfolioScreen(props) {
               </div>
             </div>
           </div>
-        ))};        
+        ))}       
       </div>
     </>
   );
