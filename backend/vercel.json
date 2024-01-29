@@ -6,13 +6,7 @@
     "routes": [
         { 
             "src": "/(.*)", 
-            "dest": "/server.js",
-            "headers": [
-                {
-                  "key": "access-control-allow-origin",
-                  "value": "*"
-                }
-            ]
+            "dest": "/server.js"            
         }
     ]
 }
